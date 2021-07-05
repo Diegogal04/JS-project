@@ -83,4 +83,19 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+.active {
+    width: 45px;
 }
