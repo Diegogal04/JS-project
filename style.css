@@ -15,4 +15,15 @@
     font-family: sans-serif;
     padding-top: 80px;
     font-size: 50px;
+    color: white;
+}
+
+.review-img {
+    width: 300px;
+    height: 400px;
+}
+
+.img-hero {
+    width: 100%;
+    height: 100%;
 }
