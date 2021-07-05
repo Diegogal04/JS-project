@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .hero {
     background-color: #0197F6;
     height: 100vh;
@@ -21,9 +25,47 @@
 .review-img {
     width: 300px;
     height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .img-hero {
     width: 100%;
     height: 100%;
+    border-radius: 13px;
+}
+
+.slide-row {
+    display: flex;
+    width: 3200px;
+}
+
+.slide-col {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+.user-text {
+    background-color: #39393A;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: white;
+    padding: 45px;
+    z-index: 2;
+}
+
+.user-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.user-text h3 {
+    margin: 35px 0 5px;
 }
