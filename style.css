@@ -69,3 +69,18 @@ body {
 .user-text h3 {
     margin: 35px 0 5px;
 }
+
+.container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
